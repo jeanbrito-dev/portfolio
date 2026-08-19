@@ -1,31 +1,16 @@
-# 🚀 Brito - Desenvolvedor Web
+# React + Vite
 
-Site profissional criado com **HTML, CSS e JavaScript puro**.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-## 📁 Arquivos
+Currently, two official plugins are available:
 
-- `index.html` - Estrutura do site
-- `style.css` - Estilos e design
-- `script.js` - Interatividade
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🌐 Ver Online
+## React Compiler
 
-https://jeangustavo078-cell.github.io/meu_portfolio/
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🎨 Características
+## Expanding the Oxlint configuration
 
-✨ Design moderno e profissional  
-📱 Totalmente responsivo  
-⚡ Carregamento rápido  
-🎯 SEO otimizado  
-
-## 📧 Contato
-
-- **Email**: jean.gustavo078@gmail.com
-- **WhatsApp**: (12) 98294-2731
-- **GitHub**: [jeangustavo078-cell](https://github.com/jeangustavo078-cell)
-- **Instagram**: [@brito.040](https://instagram.com/brito.040)
-
----
-
-**Feito com 💙 por Jean Gustavo Brito Dias**
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
